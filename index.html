@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Merkaz Tech</title>
+</head>
+
+<body>
+        <!-- Navs 
+    ===================
+    ===================
+    -->
+    <nav class="bg-success ">
+        <div class="container d-flex flex-wrap justify-content-between align-items-center text-light uppernav">
+            <div class="left d-flex gap-5 justify-content-between align-items-center">
+                <p>+966-56-5654</p>
+                <p>merkaz@cmap.com</p>
+            </div>
+            <div class="right d-flex justify-content-between gap-3  align-items-center">
+                <div class="icon-upper"><i class="fa-brands fa-facebook-f"></i></div>
+                <div class="icon-upper"><i class="fa-brands fa-instagram"></i></div>
+                <div class="icon-upper"><i class="fa-brands fa-linkedin-in"></i></div>
+                <div class="icon-upper"><i class="fa-brands fa-twitter"></i></div>
+
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container ">
+            <form class="d-flex w-25 md-w-70 lg-w-70 sm-w" role="search">
+                <button class="btn btn-success rounded-5  w-50 sm-w" type="submit">تسجيل الدخول <i
+                        class="fa-regular fa-user"></i></button>
+            </form>
+            <button class="navbar-toggler " type="button" data-bs-target="#navbarScroll" aria-controls="navbarScroll"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav mx-auto my-2 my-lg-0 gap-2 navbar-nav-scroll
+                flex-sm-column 
+                d-flex flex-lg-row-reverse" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item active">
+                        <a class="nav-link " aria-current="page" href="#">الرئيسية </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">برامج </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">من نحن </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">اخبارنا </a>
+                    </li>
+
+                </ul>
+                <a class="navbar-brand" href="#"><img src="assest/img/Screenshot_6.png" alt="LOGO"></a>
+
+            </div>
+
+
+        </div>
+    </nav>
+    <nav class="asidebar position-absolute l-0 top-0 w-100 vh-100 bg-light ">
+        <div class="container-fluid position-relative">
+            <div class="row flex-nowrap">
+                <div class="col-12 px-sm-2 px-0 ">
+                    <div
+                        class="d-flex flex-column align-items-sm-start align-items-sm-start   px-3 pt-2 text-dark ">
+                        <ul class="nav nav-pills flex-column mb-sm-auto just gap-2 align-items-center align-items-sm-center w-25" id="menu">
+                            <li class="nav-item d-flex  align-content-center w-50">
+                                <a href="#" class="nav-link align-middle px-0">
+                                    <i class="fs-4 bi-house"></i> 
+                                    <span class="ms-1">Home</span>
+                                </a>
+                            </li>
+                            <li class="nav-item d-flex  align-content-center w-50">
+                                <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                                    <i class="fs-4 bi-speedometer2"></i> 
+                                    <span class="ms-1">Dashboard</span>
+                                </a>
+                            </li>
+                            <li class="nav-item d-flex  align-content-center w-50">
+                                <a href="#" class="nav-link px-0 align-middle">
+                                    <i class="fs-4 bi-table"></i> 
+                                    <span class="ms-1">Orders</span>
+                                </a>
+                            </li>
+                            <li class="nav-item d-flex  align-content-center w-50">
+                                <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                                    <i class="fs-4 bi-bootstrap"></i> 
+                                    <span class="ms-1">Bootstrap</span>
+                                </a>
+                            </li>
+                            <li class="nav-item d-flex  align-content-center w-50">
+                                <a href="#submenu3" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                                    <i class="fs-4 bi-grid"></i> 
+                                    <span class="ms-1">Products</span>
+                                </a>
+                            </li>
+                            <li class="nav-item d-flex  align-content-center w-50">
+                                <a href="#" class="nav-link px-0 align-middle">
+                                    <i class="fs-4 bi-people"></i> 
+                                    <span class="ms-1">Customers</span>
+                                </a>
+                            </li>
+
+                        </ul>
+                        <div class="d-flex w-100 justify-content-center mt-5">
+                        <a class="navbar-brand" href="#"><img src="assest/img/Screenshot_6.png" alt="LOGO"></a>
+
+                        </div>
+                        <div class="iconX   ">
+                            <i class="fa-solid fa-x"></i>
+                        </div>
+
+                </div>
+            </div>
+        </div>
+        
+    </nav>
+
+    <!-- Carousel 
+    ===================
+    ===================
+    -->
+    <div id="customCarousel" class="carousel slide" data-bs-ride="carousel">
+
+      
+        <!-- Carousel items -->
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+
+            <div class="carousel-inner">
+              <div class="carousel-item active position-relative w-100" data-bs-interval="10000">
+                <img src="https://images.unsplash.com/photo-1503174971373-b1f69850bded?q=80&w=1513&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item position-relative w-100" data-bs-interval="2000">
+                <img src="https://images.unsplash.com/photo-1503174971373-b1f69850bded?q=80&w=1513&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item position-relative w-100">
+                <img src="https://images.unsplash.com/photo-1503174971373-b1f69850bded?q=80&w=1513&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+          </div>
+        </div>
+
+
+    <!-- Partner 
+    ===================
+    ===================
+    -->
+
+    <section class="partner">
+        <article class="container d-flex align-items-center flex-column gap-5">
+            <h1>شركائنا</h1>
+            <article class="d-flex justify-content-between partner-img">
+    <div><img src="assest/img/brand/brand-1-1.png" alt="partner1"></div>                
+    <div><img src="assest/img/brand/brand-1-2.png" alt="partner1"></div>                
+    <div><img src="assest/img/brand/brand-1-3.png" alt="partner1"></div>                
+    <div><img src="assest/img/brand/brand-1-4.png" alt="partner1"></div>                
+    <div><img src="assest/img/brand/brand-1-5.png" alt="partner1"></div>                
+
+            </article>
+        </article>
+    </section>
+
+    <!-- About 
+    ===================
+    ===================
+    -->
+
+    <section class="about">
+        <div class="container my-5">
+            <div class="row align-items-center">
+              <!-- الصور -->
+              <div class="col-lg-6">
+                <div class="d-flex gallary ">
+                    <div class="row g-3">
+                        <div class="col-6">
+                            <div class="row img-grid gap-1">
+                                <div class="col-12">
+                                    <img src="https://images.unsplash.com/photo-1576158113928-4c240eaaf360?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D" alt="Image 1" class="img-fluid rounded">
+                                  </div>
+                                  <div class="col-12">
+                                    <img src="https://images.unsplash.com/photo-1576158113928-4c240eaaf360?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D" alt="Image 2" class="img-fluid rounded">
+                                  </div>
+                            </div>
+                        </div>
+                      
+                      <div class="col-6 main-img">
+    
+                        <img src="https://images.unsplash.com/photo-1576158113928-4c240eaaf360?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D" alt="Image 3" class="img-fluid rounded">
+                      </div>
+                    </div>
+                </div>
+              </div>
+          
+              <!-- النص -->
+              <div class="col-lg-6 text-end">
+                <h2 class="text-success fw-bold mb-3">من نحن</h2>
+                <h5 class="mb-4">
+                  
+مؤسسة مركازتك هي مؤسسة أهلية وطنية غير حكومية وغير هادفة للربح أسست عام 2011 ومسجلة مركزيا برقم قيد 839 لسنة 2018 وتعمل طبقا لقانون الجمعيات والمؤسسات الأهلية المصري.
+                </h5>
+                <ul class="d-flex flex-column gap-3 ">
+                  <li >  
+                    المؤسسة قائمة على التطوع وتعمل منذ نشأتها على تنمية الشباب لبناء قدراتهم من أجل العمل على تنمية المجتمعات والاستجابة لاحتياجاتهم الإنسانية والإغاثية  
+                 </li>
+                 <li>  
+                    المؤسسة قائمة على التطوع وتعمل منذ نشأتها على تنمية الشباب لبناء قدراتهم من أجل العمل على تنمية المجتمعات والاستجابة لاحتياجاتهم الإنسانية والإغاثية  
+                 </li>
+                 <li>  
+                    المؤسسة قائمة على التطوع وتعمل منذ نشأتها على تنمية الشباب لبناء قدراتهم من أجل العمل على تنمية المجتمعات والاستجابة لاحتياجاتهم الإنسانية والإغاثية  
+                 </li>
+                </ul>
+                <button class="btn btn-success mt-3 w-25 rounded-5">المزيد</button>
+              </div>
+            </div>
+          </div>
+          
+          
+
+    </section>
+
+
+    <!-- Donations 
+    ===================
+    ===================
+    -->  
+
+    <section id="Donation">
+        <div class="container d-flex flex-column gap-5 p-3 ">
+            <div class="title text-end pe-5">
+                <h6 class="text-secondary">ابدأ مساهمتك وحدد الحالة التي تريد التبرع لها </h6>
+                <h6>ساهم بتبرعك لأحد الحالات الآتية </h6>
+            </div>
+            <div class="cards d-flex flex-wrap gap-3 justify-content-center">
+            </div>
+            <div class="buttons d-flex justify-content-center">
+            <button class="btn btn-outline-success  ps-3 pe-3 text-center rounded-5"> عرض المزيد</button>
+
+            </div>
+        </div>
+    </section>
+
+        <!-- Counter 
+    ===================
+    ===================
+    --> 
+
+    <section>
+        <div class="container p-5 rounded-3 text-white" style="background-color: #00a372;">
+            <div class="counter-items d-grid grid-template-columns-4 gap-4 justify-items-center">
+                
+                <!-- Counter Item 1 -->
+                <div class="counter-item d-flex gap-4 flex-column justify-content-center align-items-center">
+                    <i class="fa-solid fa-house" style="font-size: 24px;"></i>
+                    <h3>1.2k+</h3>
+                    <h2 class="text-opacity-50" style="color: #ccc;">منازل</h2>
+                </div>
+    
+                <!-- Counter Item 2 -->
+                <div class="counter-item d-flex gap-4 flex-column justify-content-center align-items-center">
+                    <i class="fa-solid fa-box" style="font-size: 24px;"></i>
+                    <h3>100</h3>
+                    <h2 class="text-opacity-50" style="color: #ccc;">صناديق</h2>
+                </div>
+    
+                <!-- Counter Item 3 -->
+                <div class="counter-item d-flex gap-4 flex-column justify-content-center align-items-center">
+                    <i class="fa-solid fa-earth-americas" style="font-size: 24px;"></i>
+                    <h3>480</h3>
+                    <h2 class="text-opacity-50" style="color: #ccc;">مساهمين</h2>
+                </div>
+    
+                <!-- Counter Item 4 -->
+                <div class="counter-item d-flex gap-4 flex-column justify-content-center align-items-center">
+                    <i class="fa-solid fa-gift" style="font-size: 24px;"></i>
+                    <h3>1.4m</h3>
+                    <h2 class="text-opacity-50" style="color: #ccc;">تبرعات</h2>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+    
+        <!-- Services 
+    ===================
+    ===================
+    --> 
+
+    <section class="mt-5">
+        <article class="container d-flex flex-column gap-5">
+            <div class="title d-flex justify-content-center flex-column align-items-center">
+                <h6 class="text-secondary">الخدمات</h6>
+                <h3>تعرف علي خدماتنا</h3>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 d-flex flex-column align-items-center text-center gap-1">
+                    <div class="icon bg-success text-white rounded-5 d-flex justify-content-center align-items-center m-1" style="width:50px; height: 50px; box-shadow: 0 4px 8px rgba(100, 255, 100, 0.4);">
+                        <i class="fa-solid fa-house" style="font-size: 30px;"></i>
+                    </div>
+                    
+                    <h6>توفير سكن </h6>
+                    <p style="width: 60%;"> توفير سكن توفير سكن توفير سكن توفير سكن توفير سكن توفير سكن توفير سكن توفير سكن توفير سكن</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 d-flex flex-column align-items-center text-center gap-1">
+                    <div class="icon bg-success text-white rounded-5 d-flex justify-content-center align-items-center m-1" style="width:50px; height: 50px; box-shadow: 0 4px 8px rgba(100, 255, 100, 0.4);">
+                        <i class="fa-solid fa-house" style="font-size: 30px;"></i>
+                    </div>
+                    
+                    <h6>توفير سكن </h6>
+                    <p style="width: 60%;"> توفير سكن توفير سكن توفير سكن توفير سكن توفير سكن توفير سكن توفير سكن توفير سكن توفير سكن</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 d-flex flex-column align-items-center text-center gap-1">
+                    <div class="icon bg-success text-white rounded-5 d-flex justify-content-center align-items-center m-1" style="width:50px; height: 50px; box-shadow: 0 4px 8px rgba(100, 255, 100, 0.4);">
+                        <i class="fa-solid fa-house" style="font-size: 30px;"></i>
+                    </div>
+                    
+                    <h6>توفير سكن </h6>
+                    <p style="width: 60%;"> توفير سكن توفير سكن توفير سكن توفير سكن توفير سكن توفير سكن توفير سكن توفير سكن توفير سكن</p>
+                </div>
+
+            </div>
+        </article>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+
+        <script src="data.js" type="module"></script>
+        <script defer src="index.js" type="module" ></script>
+</body>
+
+</html>

@@ -1,0 +1,273 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@media (min-width:229px){
+  .sm-w{
+    width: 70% !important;
+  }
+}
+@media (max-width:992px) {
+
+    .md-w-70 {
+      width: 70% !important;
+
+    }
+  }
+  @media (min-width:993px) {
+    .lg-w-70 {
+      width: 30% !important;
+    }
+  }
+  nav{z-index: 999;}
+  nav li{
+    border-radius: 20px;
+    width: 90px !important;
+    text-align: center;
+    transition: all .5s linear;
+  }
+  nav li:hover{
+    background: #134b1359
+
+  }
+  nav li.active{
+    background: #134b1359
+  }
+  .iconX{
+    position: absolute;
+    top: 10px;
+    right: 50px ;
+    cursor: pointer;
+
+  }
+  .asidebar{
+    left: -200%;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    transition: left 0.4s ease;
+  }
+
+  .uppernav .left ,  .uppernav .right {
+    display: flex;
+    padding: 10px;
+    align-items: center !important;
+  }
+  .uppernav p{
+    margin: 0 !important;
+  }
+  .uppernav .icon-upper{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #fff;
+    color: #28a745;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    
+  }
+
+
+/* 
+================================
+================================
+Carousel 
+================================
+================================*/
+
+
+  #customCarousel {
+    height: 50vh !important;
+    overflow: hidden;
+  }
+
+  @media (min-width:992px){
+    #customCarousel {
+      height: 85vh !important;
+      overflow: hidden;
+    }
+  }
+  
+  
+  #carouselExampleDark {
+    height: 100% !important;
+  }
+  .carousel-inner{
+    height: 90%;
+    margin-bottom: 20px !important;
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    color: aliceblue !important;
+    text-align: left;
+  }
+  
+  .carousel-caption h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .carousel-caption p {
+    font-size: 1rem;
+  }
+  
+
+  .carousel-indicators button {
+
+    height: 10px !important;
+    width:10px !important;
+    border-radius: 50%; 
+    background-color: #ccc !important; 
+    transition: all 0.3s ease; 
+    margin: 0 5px; /
+  }
+  
+  .carousel-indicators .active {
+    background-color: #28a745 !important; 
+    width: 25px !important;
+    border-radius: 10px !important; 
+    height:7px  !important;
+    margin-top: 1px;
+  }
+  
+ 
+
+  /* 
+================================
+================================
+Partner 
+================================
+================================*/
+  .partner{
+    justify-content: space-between;
+  }
+  .partner div{
+    height: 100px;
+    img{
+      width: 100px;
+    }
+  }
+  .partner-img{
+    display: flex;
+    justify-content: space-between ;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+    /* 
+================================
+================================
+About 
+================================
+================================*/
+  .about .gallary{
+    width: 70%;
+    justify-content:center;
+  }
+  .about ul{
+    list-style: none;
+
+  } .about ul li{
+    font-weight: bold;
+  }
+
+  .about .main-img{
+    margin-top: 100px;
+    height: 300px;
+    object-fit: cover;
+    img{
+      width: 100%;
+      height: 90%;
+    border-radius: 50px;
+      
+    }
+  }
+  .about div{
+    border-radius: 30px; 
+    overflow: hidden;
+    img{
+      height: 100%;
+      width: 100%;
+      
+      object-fit: cover;
+    }
+  }
+  .img-grid div:first-child{
+    height: 200px !important;
+
+  }
+  .img-grid div:last-child{
+    height: 100px !important;
+
+  }
+
+
+    /* 
+================================
+================================
+Donation 
+================================
+================================*/
+
+#Donation {
+  .card{
+    text-align: right;
+    .img{
+      .position-absolute{
+        cursor: pointer;
+        direction: rtl;
+        bottom: 10px ;
+        right: 30px ;
+        display: flex;
+        align-items: center ;
+        gap: 10px;
+        font-size: 18px;
+        padding: 7px 15px;
+        border-radius: 30px;
+        
+      }
+    }
+    .card-body{
+      i{
+        font-size: 24px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+    /* 
+================================
+================================
+counter 
+================================
+================================*/
+
+.counter-items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns by default */
+  gap: 1.5rem; /* space between items */
+  justify-items: center;
+}
+
+/* Responsive Layout for screens smaller than 1200px */
+@media (max-width: 1200px) {
+  .counter-items {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns for medium screens */
+  }
+}
+
+/* Responsive Layout for screens smaller than 768px */
+@media (max-width: 768px) {
+  .counter-items {
+      grid-template-columns: 1fr; /* 1 column for small screens */
+  }
+}
+
+    /* 
+================================
+================================
+Services 
+================================
+================================*/
